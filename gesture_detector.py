@@ -1,12 +1,12 @@
 import time
 
 GESTURES = [
-    "LIGHT_ON",
-    "LIGHT_OFF",
-    "FAN_ON",
-    "FAN_OFF",
-    "DEVICE3_ON",
-    "DEVICE3_OFF",
+    "RED_ON",
+    "RED_OFF",
+    "YELLOW_ON",
+    "YELLOW_OFF",
+    "BOTH_ON",
+    "BOTH_OFF",
     "HELLO",
     "YES",
     "NO",
