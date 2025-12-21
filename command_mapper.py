@@ -4,12 +4,14 @@ NODEMCU_IP = "192.168.1.50"
 BASE_URL = f"http://{NODEMCU_IP}"
 
 IOT_COMMANDS = {
-    "LIGHT_ON": "/light_on",
-    "LIGHT_OFF": "/light_off",
-    "FAN_ON": "/fan_on",
-    "FAN_OFF": "/fan_off",
-    "DEVICE3_ON": "/device3_on",
-    "DEVICE3_OFF": "/device3_off",
+    "RED_ON": "/red_on",
+    "RED_OFF": "/red_off",
+    "YELLOW_ON": "/yellow_on",
+    "YELLOW_OFF": "/yellow_off",
+    "BOTH_ON": "/both_on",
+    "BOTH_OFF": "/both_off",
+}
+
 }
 
 COMMUNICATION = {
