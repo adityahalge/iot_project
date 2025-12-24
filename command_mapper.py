@@ -12,14 +12,15 @@ IOT_COMMANDS = {
     "BOTH_OFF": "/both_off",
 }
 
-}
-
 COMMUNICATION = {
-    "HELLO",
-    "YES",
-    "NO",
-    "THANK_YOU",
-    "HELP"
+    
+    "HELLO": "Hello",
+    "YES": "Yes",
+    "NO": "No",
+    "THANK_YOU": "Thank you",
+    "HELP": "Help"
+
+
 }
 
 def send_command(endpoint):
