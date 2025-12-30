@@ -35,7 +35,8 @@ def process_gesture(gesture):
     gesture = gesture.strip().lower()
 
     if gesture in IOT_COMMANDS:
-        send_command(IOT_COMMANDS[gesture])
+       
+ send_command(IOT_COMMANDS[gesture])
     elif gesture in COMMUNICATION:
         print(COMMUNICATION[gesture])
     else:
